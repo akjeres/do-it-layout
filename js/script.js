@@ -89,7 +89,19 @@ $( "#datepicker" ).datepicker( "option", "firstDay", 1 );
 //Calendar Scripts End
 
 //Dropdown Script Starts
-/*$(document).ready(function(){
-        $(".dropdown_div").siblings()
-    });*/
+    var click_counter = 0;
+    $(".btn-group.dd").click(function() {
+      click_counter++;
+    if (click_counter%2) {
+        $(this).addClass("active");
+        $(this).children().children(".dd_name").html("Dropdown Active");
+        $(this).children().children(".dd_span").children().children().children().
+        removeClass("glyphicon-triangle-bottom").addClass("glyphicon-triangle-top");
+    } else {
+        $(this).removeClass("active");
+        $(this).children().children(".dd_name").html("Dropdown Normal");
+        $(this).children().children(".dd_span").children().children().children().
+        removeClass("glyphicon-triangle-top").addClass("glyphicon-triangle-bottom");
+        };
+    });
 //Dropdown Script Ends
