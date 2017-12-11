@@ -13,7 +13,11 @@ body {
 	color: #727272;
 	min-width: 240px;
 }
-
+.wrapper {
+	max-width: 1618px;
+	margin-left: auto;
+	margin-right: auto;
+}
 /*Carousel Styles*/
 div.h_wrapper {
 	display: block;
