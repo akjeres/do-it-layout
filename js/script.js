@@ -14,6 +14,7 @@ $('.carousel').carousel();
         }).on('hide.bs.collapse', function(){
             $(this).parent().find(".glyphicon-triangle-top").removeClass("glyphicon-triangle-top").addClass("glyphicon-triangle-bottom");
         });
+        
     });
 //Accordion Script Ends
 
@@ -81,11 +82,12 @@ $(document).ready(function(){
 
 //Calendar Scripts Start
 $( "#datepicker" ).datepicker({
-    inline: true
+    inline: true,
+    autoSize: true,
+    firstDay: 1,
+    dayNamesMin: [ "S", "M", "T", "W", "T", "F", "S" ]
+
 });
-$( "#datepicker" ).datepicker( "option", "autoSize", true );
-$( "#datepicker" ).datepicker( "option", "dayNamesMin", [ "S", "M", "T", "W", "T", "F", "S" ] );
-$( "#datepicker" ).datepicker( "option", "firstDay", 1 );
 //Calendar Scripts End
 
 //Dropdown Script Starts

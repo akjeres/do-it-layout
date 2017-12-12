@@ -23,7 +23,7 @@
 	<div class="wrapper">
 		<header>
 			<div class="h_wrapper">
-				<div class="slideshow_wrapper">
+				<div class="slideshow_wrapper col-lg-7">
 					<div class="slideshow">
 					<div id="carousel" class="carousel slide" data-ride="carousel">
 					  <!-- Indicators -->
@@ -67,31 +67,31 @@
 					</div>
 				</div>
 				</div>
-				<div class="social_wrapper">
+				<div class="social_wrapper col-lg-3 hidden-md hiden-sm hidden-xs">
 					<div class="social_div">
-					<div class="twitter">
+					<div class="twitter col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<a href="https://twitter.com/">
 							<img class="social_img" src="images/twitter.png" alt="Twitter logo">
 						</a>
 					</div>
-					<div class="dribbble">
+					<div class="dribbble col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<a href="https://dribbble.com/">
 							<img class="social_img" src="images/dribbble.svg" alt="Dribbble logo">
 						</a>
 					</div>
-					<div class="google_plus">
+					<div class="google_plus col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<a href="https://plus.google.com/">
 							<img class="social_img" src="images/google_plus.jpg" alt="Google Plus logo">
 						</a>
 					</div>
-					<div class="facebook ">
+					<div class="facebook col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<a href="https://facebook.com/">
 							<img class="social_img" src="images/facebook.png" alt="Facebook logo">
 						</a>
 					</div>
 				</div>
 				</div>
-				<div class="sn_post_wrapper">
+				<div class="sn_post_wrapper col-lg-2 hidden-md hidden-sm hidden-xs">
 					<div class="sn_post">
 					<div class="post_image">
 						<img src="images/stark.jpg" align="Tony Stark as Iron Man">	
@@ -123,7 +123,7 @@
 		<main>
 			<div class="grid">
 				<div class="first_row">
-					<nav class="navbar navbar-default" role="navigation">
+					<nav class="navbar navbar-default col-lg-10" role="navigation">
 					  <div class="container-fluid">
 					    <!-- Brand and switchers were grouped due to better vizualization on the mobile devices -->
 					    <div class="navbar-header">
@@ -157,7 +157,7 @@
 					    </div>
 					  </div>
 					</nav>
-					<div class="aside">
+					<div class="aside col-lg-2">
 						<div class="messages">
 							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 							  <div class="panel panel-default">
@@ -259,19 +259,22 @@
 				</div>
 				</div>		
 				<div class="second_row">
-					<div class="subscription">
-						<div class="subscription_img">
-							<img src="images/widow.jpg" alt="Black Widow" class="img-responsive img-circle img-thumbnail">
+					<div class="subscription_wrapper col-lg-3">
+						<div class="subscription">
+							<div class="subscription_img">
+								<img src="images/widow.jpg" alt="Black Widow" class="img-responsive img-circle img-thumbnail">
+							</div>
+							<div class="subscription_descr">
+								<h4>Scarlett Johanson</h4>
+								<p class="small">Black Widow</p>
+							</div>
+							<div class="subscription_btn">
+								<a href="https://www.instagram.com/oficialscarlett/"><h4 class="follow">Follow<span>&nbsp;+&nbsp;</span></h4></a>
+							</div>	
 						</div>
-						<div class="subscription_descr">
-							<h4>Scarlett Johanson</h4>
-							<p class="small">Black Widow</p>
-						</div>
-						<div class="subscription_btn">
-							<a href="https://www.instagram.com/oficialscarlett/"><h4 class="follow">Follow<span>&nbsp;+&nbsp;</span></h4></a>
-						</div>	
 					</div>
-					<div class="weather">
+					<div class="weather_wrapper col-lg-4">
+						<div class="weather">
 						<div class="weather_header">
 							<div class="col-xs-6 weather_place">Exeter, UK</div>
 							<div class="col-xs-6 weather_scale">
@@ -330,91 +333,100 @@
 							</div>
 						</div>
 					</div>
-					<div class="calendar hidden-xs" >
+					</div>
+					<div class="calendar_wrapper col-lg-4">
+						<div class="calendar" >
 						<div id="datepicker"></div>
+						</div>
 					</div>
 				</div>
 				<div class="third_row">
-					<div class="dropdown_div">
-					<div class="dd_upper">
-						<div class="btn-group dd">
-						<div class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-							<div class="col-md-10 col-sm-10 col-xs-10 dd_name">Dropdown Normal</div>
-							<div class="col-md-2 col-sm-2 col-xs-2 dd_span">
-								<div class="bordered_span">
-									<div>
-									<span class="glyphicon glyphicon-triangle-bottom small"></span></div>
-							<span class="sr-only">Toggle Dropdown</span>
-								</div>
-								</div>
+					<div class="dropdown_wrapper col-lg-3">
+						<div class="dropdown_div">
+						<div class="dd_upper">
+							<div class="btn-group dd">
+							<div class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+								<div class="col-md-10 col-sm-10 col-xs-10 dd_name">Dropdown Normal</div>
+								<div class="col-md-2 col-sm-2 col-xs-2 dd_span">
+									<div class="bordered_span">
+										<div>
+										<span class="glyphicon glyphicon-triangle-bottom small"></span></div>
+								<span class="sr-only">Toggle Dropdown</span>
+									</div>
+									</div>
+							</div>
+							  <ul class="dropdown-menu" role="menu">
+							    <li><a href="#">Option One</a></li>
+							    <li><a href="#">Option Two</a></li>
+							  </ul>
+							</div>						
 						</div>
-						  <ul class="dropdown-menu" role="menu">
-						    <li><a href="#">Option One</a></li>
-						    <li><a href="#">Option Two</a></li>
-						  </ul>
-						</div>						
-					</div>
-					<div class="dd_lower">
-						<div class="btn-group dd"><!--test-->
-						<div class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-							<div class="col-md-10 col-sm-10 col-xs-10 dd_name">Dropdown Normal</div>
-							<div class="col-md-2 col-sm-2 col-xs-2 dd_span">
-								<div class="bordered_span">
-									<div>
-									<span class="glyphicon glyphicon-triangle-bottom small"></span></div>
-							<span class="sr-only">Toggle Dropdown</span>
-								</div>
-								</div>
-						</div>
-						  <ul class="dropdown-menu" role="menu">
-						    <li><a href="#">Option One</a></li>
-						    <li><a href="#">Option Two</a></li>
-						  </ul>
-						</div>						
-					</div>
-				</div>
-				<div class="bootstrap_messages">
-					<div class="alert alert-success alert-dismissible" role="alert">
-					  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;	 </span><span class="sr-only">Close</span></button>
-  						Congratulations! You have been successful
-					</div>
-					<div class="alert alert-info alert-dismissible" role="alert">
-					  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;	 </span><span class="sr-only">Close</span></button>
-  						Attention! I recommend you look at me
-					</div>
-					<div class="alert alert-warning alert-dismissible" role="alert">
-					  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;	 </span><span class="sr-only">Close</span></button>
-  						Warning! Are you sure want to do this?
-					</div>
-					<div class="alert alert-danger alert-dismissible" role="alert">
-					  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;	 </span><span class="sr-only">Close</span></button>
-  						Oops! Something gone wrong
-					</div>
-				</div>
-				<div class="login">
-					<form id="loginForm" method="POST" action="?process-form">
-				      <div class="username_password">
-						<div class="col-md-6 col-sm-6 username">
-							<input type="text" name="username" placeholder="Username">
-						</div>
-						<div class="col-md-6 col-sm-6 password">
-							<input type="password" name="password" placeholder="Password">
+						<div class="dd_lower">
+							<div class="btn-group dd"><!--test-->
+							<div class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+								<div class="col-md-10 col-sm-10 col-xs-10 dd_name">Dropdown Normal</div>
+								<div class="col-md-2 col-sm-2 col-xs-2 dd_span">
+									<div class="bordered_span">
+										<div>
+										<span class="glyphicon glyphicon-triangle-bottom small"></span></div>
+								<span class="sr-only">Toggle Dropdown</span>
+									</div>
+									</div>
+							</div>
+							  <ul class="dropdown-menu" role="menu">
+							    <li><a href="#">Option One</a></li>
+							    <li><a href="#">Option Two</a></li>
+							  </ul>
+							</div>						
 						</div>
 					</div>
-					<div class="e-mail">
-						<div class="col-md-7 col-sm-7 email">
-							<input type="email" name="email" placeholder="Pleace use correct email format" class="alert alert-danger bordered">
-						</div>
-						<div class="col-md-5 col-sm-5 checker">
-							<div>Active</div>
+					</div>
+					<div class="messages_wrapper col-lg-4 col-lg-offset-2">
+						<div class="bootstrap_messages">
+							<div class="alert alert-success alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;	 </span><span class="sr-only">Close</span></button>
+		  						Congratulations! You have been successful
+							</div>
+							<div class="alert alert-info alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;	 </span><span class="sr-only">Close</span></button>
+		  						Attention! I recommend you look at me
+							</div>
+							<div class="alert alert-warning alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;	 </span><span class="sr-only">Close</span></button>
+		  						Warning! Are you sure want to do this?
+							</div>
+							<div class="alert alert-danger alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;	 </span><span class="sr-only">Close</span></button>
+		  						Oops! Something gone wrong
+							</div>
 						</div>
 					</div>
-				      <div class="message_login">
-				          <textarea class="form-control custom-control" rows="2" style="resize:none" placeholder="Message"></textarea>
-				          <button class="btn-default col-md-3 col-sm-3 col-xs-5 pull-right" id="submitForm">Login</button>
-				      </div>
-				  </form>
-				</div>
+					<div class="login_wrapper col-lg-5">
+						<div class="login">
+						<form id="loginForm" method="POST" action="?process-form">
+					      <div class="username_password">
+							<div class="col-md-6 col-sm-6 username">
+								<input type="text" name="username" placeholder="Username">
+							</div>
+							<div class="col-md-6 col-sm-6 password">
+								<input type="password" name="password" placeholder="Password">
+							</div>
+						</div>
+						<div class="e-mail">
+							<div class="col-md-7 col-sm-7 email">
+								<input type="email" name="email" placeholder="Pleace use correct email format" class="alert alert-danger bordered">
+							</div>
+							<div class="col-md-5 col-sm-5 checker">
+								<div>Active</div>
+							</div>
+						</div>
+					      <div class="message_login">
+					          <textarea class="form-control custom-control" rows="2" style="resize:none" placeholder="Message"></textarea>
+					          <button class="btn-default col-md-3 col-sm-3 col-xs-5 pull-right" id="submitForm">Login</button>
+					      </div>
+					  </form>
+					</div>
+					</div>
 				</div>
 				</div>
 			</div>
