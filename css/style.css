@@ -11,7 +11,7 @@ body {
 	padding: 2%;
 	background-color: transparent;
 	color: #727272;
-	min-width: 240px;
+	min-width: 320px;
 }
 .wrapper {
 	max-width: 1618px;
@@ -20,7 +20,6 @@ body {
 	margin-right: auto;
 }
 header {
-	/*max-height: 320px;*/
 	margin-bottom: 1.75%;
 }
 /*Carousel Styles*/
@@ -166,7 +165,6 @@ div.social_div {
 
 /*Social Network Post Style*/
 div.sn_post {
-	/*max-width: 256px;*/
 	background-color: #fff;
 }
 div.post_image {
@@ -206,12 +204,6 @@ div.likes {
 	padding: 7% 10%;
 }
 
-/*@media (max-width: 1670px) {
-	div.post_descript5ion {
-		padding: 12% 5%;
-	}
-}*/
-
 /*Nav Styles*/
 .navbar {
 	position: static;
@@ -219,7 +211,7 @@ div.likes {
 }
 nav div.container-fluid {
 	background-color: #fff;
-	margin-top: 0; /*для отступа от нав. панели*/
+	margin-top: 0;
 }
 nav.navbar.navbar-default::before {
 	clear: left;
@@ -231,9 +223,6 @@ nav.navbar.navbar-default::before {
 	border-right: solid 1px #eeeeee;
 	background-color: #fff;
 }
-/*.nav-li {
-	width: 20%;
-}*/
 nav.navbar.navbar-default {
 	background-color: transparent;
 	border: 0;
@@ -266,15 +255,10 @@ span.glyphicon.glyphicon-search {
 	color: #fff;
 }
 span.glyphicon.glyphicon-home {
-	/*width: 80px;*/
 	color: #fff;
 	text-shadow: #444 0 0 1px;
-	/*top: 15px;*/
 }
-/*a.navbar-brand {
-		width: 80px;
-		font-size: 2.5em;
-	}*/
+
 .center-block {
   display: block;
   margin-left: auto;
@@ -445,7 +429,7 @@ span.check_span.pull-left {
 div.subscription {
 	box-sizing: border-box;
 	background-color: #fff;
-	max-width: 324px;/*потом удалить*/
+	max-width: 324px;
 	padding-bottom: 25px;
 	padding-top: 0;
 }
@@ -494,12 +478,11 @@ h4.follow span {
 /*Weather Informer Style*/
 .weather {
 	box-sizing: border-box;
-	/*temp*/
 	height: 350px;
-	/*temp*/
 	background-color: inherit;
 	color: #fff;
 	padding: 0;
+	overflow: hidden;
 }
 
 div.weather_header {
@@ -640,7 +623,6 @@ div.ui-datepicker-header {
 	position: static;
 }
 div.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content {
-	margin-top: 1px;
 	height: 100%;
 	background-color: #fff;
 	border-radius: 0;
@@ -679,7 +661,7 @@ a.ui-state-default.ui-state-highlight {
 /*Dropdown Styles*/
 .dropdown_div {
 	color: #444444;
-	background-color: transparent; /*change to transparent after completing*/
+	background-color: transparent;
 	height: 140px;
 }
 .dd_upper, .dd_lower {
@@ -691,8 +673,6 @@ a.ui-state-default.ui-state-highlight {
 }
 div.btn-group.dd {
 	width: 100%;
-	/*padding-top: 15px;
-	padding-bottom: 15px;*/
 	box-shadow: none;
 	height: 50px;
 }
@@ -794,7 +774,6 @@ div.alert-danger {
 }
 /*Login Field Style*/
 div.login {
-	/*min-height: 285px;*/
 	background-color: #fff;
 	padding: 2%;
 	max-width: 720px;
@@ -899,9 +878,34 @@ textarea.form-control.custom-control  {
 }
 
 /*Media Queries*/
+/*<768P*/
+@media (max-width: 767px) {
+	body {
+		padding: 0;
+	}
+	nav.navbar.navbar-default {
+		margin-top: 2.5%;
+		margin-bottom: 3%;
+	}
+	#accordion, .switchers_wrapper, div.aside, .weather,
+	.dropdown_wrapper, .dd_upper, .messages_wrapper {
+		margin-bottom: 3.5%;
+	}
+	div.switchers_wrapper {
+		width: 180px;
+	}
+	.subscription {
+		margin: 0 auto 3.5% auto;
+	}
+	.dropdown_div {
+		height: 10%;
+	}
+	div.login {
+		margin: 0 auto;
+	}
+}
 
-/*>=1200p*/
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 	.wrapper {
 		max-height: 1205px;
 	}
@@ -1070,7 +1074,7 @@ textarea.form-control.custom-control  {
 	textarea.form-control.custom-control {
 		padding: 21px 12px 6px 21px;
 	}
-}
+}*/
 /*>=1689P*/
 @media (min-width: 1689px) {
 	.wrapper {
