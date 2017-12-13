@@ -65,46 +65,6 @@ div.carousel-caption {
 	left: 7%;
 	bottom: 12px;
 }
-/*@media (max-width: 1350px) {
-	div.carousel-control_inner span.glyphicon.glyphicon-menu-right, div.carousel-control_inner span.glyphicon.glyphicon-menu-left {
-		top: 15%;
-		font-size: 2em;
-	}
-	ol.carousel-indicators {
-	bottom: 0;
-	top: 87.5% !important;
-}
-}
-@media (max-width: 768px) {
-	div.carousel-control_inner span.glyphicon.glyphicon-menu-right, div.carousel-control_inner span.glyphicon.glyphicon-menu-left {
-		top: 20%;
-		font-size: 1em;
-	}
-}
-@media (max-width: 470px) {
-	div.carousel-control_inner span.glyphicon.glyphicon-menu-right, div.carousel-control_inner span.glyphicon.glyphicon-menu-left {
-		font-size: 0.8em;
-		top: -10%;
-	}
-	ol.carousel-indicators {
-	top: 85% !important;
-}
-}
-@media (max-width: 360px) {
-	div.carousel-control_inner span.glyphicon.glyphicon-menu-right, div.carousel-control_inner span.glyphicon.glyphicon-menu-left {
-		font-size: 0.6em;
-		top: -45%;
-	}
-	ol.carousel-indicators {
-	top: 82.5% !important;
-}
-}
-@media (max-width: 320px) {
-	div.carousel-control_inner span.glyphicon.glyphicon-menu-right, div.carousel-control_inner span.glyphicon.glyphicon-menu-left {
-		font-size: 0.5em;
-		top: -65%;
-	}
-}*/
 ol.carousel-indicators {
 	bottom: 0;
 	top: 85%;
@@ -878,7 +838,6 @@ textarea.form-control.custom-control  {
 }
 
 /*Media Queries*/
-
 /*>=1689P*/
 @media (min-width: 1689px) {
 	.wrapper {
@@ -1073,6 +1032,7 @@ textarea.form-control.custom-control  {
 		margin: 0 auto;
 	}
 }
+/*1200P-1688P*/
 @media (min-width: 1200px) and (max-width: 1688px) {
 	.wrapper {
 		width: 1140px;
@@ -1203,6 +1163,7 @@ textarea.form-control.custom-control  {
 		padding-right: 0;
 	}
 }
+/*768P-1199P*/
 @media (min-width: 768px) and (max-width: 1199px) {
 	div.slideshow_wrapper {
 		width: 96.75%;
