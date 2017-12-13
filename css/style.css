@@ -878,203 +878,7 @@ textarea.form-control.custom-control  {
 }
 
 /*Media Queries*/
-/*<768P*/
-@media (max-width: 767px) {
-	body {
-		padding: 0;
-	}
-	nav.navbar.navbar-default {
-		margin-top: 2.5%;
-		margin-bottom: 3%;
-	}
-	#accordion, .switchers_wrapper, div.aside, .weather,
-	.dropdown_wrapper, .dd_upper, .messages_wrapper {
-		margin-bottom: 3.5%;
-	}
-	div.switchers_wrapper {
-		width: 180px;
-	}
-	.subscription {
-		margin: 0 auto 3.5% auto;
-	}
-	.dropdown_div {
-		height: 10%;
-	}
-	div.login {
-		margin: 0 auto;
-	}
-}
 
-/*@media (min-width: 1200px) {
-	.wrapper {
-		max-height: 1205px;
-	}
-	.h_wrapper {
-		min-height: 237px;
-	}
-	div.post_description {
-		padding: 5.75% 5%;
-	}
-	.carousel-inner {
-		min-height: 237px;
-		width: 102%;
-	}
-	div.carousel-control_inner {
-		width: 63%;
-	}
-	.carousel-control.right {
-		right: -2%;
-	}
-	div.carousel-caption {
-		bottom: 26px;
-	}
-	ol.carousel-indicators {
-		top: 87.5%;
-	}
-	div.carousel-control_inner .glyphicon {
-		font-size: 1.5em;
-		top: 12.5%;
-	}
-	nav.navbar.navbar-default {
-		padding: 0;
-	}
-	.navbar-header {
-		height: 80px;
-	}
-	nav div.container-fluid {
-		padding: 0;
-		margin: 0;
-		margin-right: 33px;
-	}
-	.navbar-brand, .nav-li{
-		height: 80px;
-	}
-	.navbar-brand {
-		margin: 0 !important;
-	}
-	div.aside {
-		padding: 0;
-		height: 539px;
-	}
-	div.navbar-header a {
-		width: 80px;
-		font-size: 2.25em;
-		padding-left: 12px;
-		margin-left: 0;
-	}
-	span.glyphicon.glyphicon-home {
-		top: 10px;
-		left: 10px;
-	}
-	ul.navbar-nav {
-		width: 63%;
-		font-size: 120%;
-	}
-	form.navbar-form {
-		width: 30%;
-		height: 64px;
-		padding-top: 8px;
-	}
-	form.navbar-form div > input {
-		height: 48px;
-		font-size: 120%;
-	}
-	form.navbar-form div {
-		width: 100%;
-	}
-	
-	.nav > li {
-		width: 20%;
-		text-align: center;
-		padding-top: 2%;
-	}
-	.btn-search {
-		border-radius: 0;
-		background-color: #00b2b2;
-		width: 48px;
-		height: 48px;
-		font-size: 22px;	
-	}
-	.second_row {
-		position: relative;
-		top: -425px;
-	}
-	.subscription_wrapper, .dropdown_wrapper {
-		padding-left: 0;
-		width: 20.95%;
-	}
-	.calendar_wrapper {
-		max-height: 429px;
-	}
-	.login_wrapper {
-		padding-right: 0;
-		width: 49%;
-	}
-	.third_row {
-		position: relative;
-	}
-	label.switcher {
-		left: 90px;
-	}
-	div.form-switcher {
-		padding: 15px 0 15px 0;
-	}
-	div.pointer_wrapper {
-		padding: 25px 0;
-	}
-	.third_row {
-		position: relative;
-		top: -425px;
-	}
-	div.dropdown_wrapper {
-		left: -878px;
-		top: 140px;
-	}
-	div.messages_wrapper {
-		position: relative;
-		top: -75px;
-		margin-left: 21%;
-		height: 360px;
-	}
-	div.bootstrap_messages {
-		height: 100%;
-		padding: 5%;
-	}
-	.alert {
-		padding-top: 20px;
-		margin-bottom: 30px;
-	}
-	input.alert  {
-		padding-left: 15px;
-	}
-	div.login_wrapper {
-		width: 738px;
-	}
-	div.login {
-		height: 320px;
-		padding: 3.5%;
-	}
-	div.username_password div, div.checker	 {
-		height: 62px;
-		padding: 10px 0 0 10px;
-	}
-	.username_password, .e-mail {
-		margin-bottom: 21px;
-	}
-	div.password input {
-		padding-left: 25px;
-	}
-	div.checker {
-		padding: 21px 0 0 25px;
-	}
-	input.alert.alert-danger.bordered {
-		padding-left: 21px;
-		height: 62px;
-	}
-	textarea.form-control.custom-control {
-		padding: 21px 12px 6px 21px;
-	}
-}*/
 /*>=1689P*/
 @media (min-width: 1689px) {
 	.wrapper {
@@ -1181,9 +985,6 @@ textarea.form-control.custom-control  {
 		padding-right: 0;
 		width: 49%;
 	}
-	.third_row {
-		position: relative;
-	}
 	label.switcher {
 		left: 90px;
 	}
@@ -1244,5 +1045,161 @@ textarea.form-control.custom-control  {
 	}
 	textarea.form-control.custom-control {
 		padding: 21px 12px 6px 21px;
+	}
+}
+/*<768P*/
+@media (max-width: 767px) {
+	body {
+		padding: 0;
+	}
+	nav.navbar.navbar-default {
+		margin-top: 2.5%;
+		margin-bottom: 3%;
+	}
+	#accordion, .switchers_wrapper, div.aside, .weather,
+	.dropdown_wrapper, .dd_upper, .messages_wrapper {
+		margin-bottom: 3.5%;
+	}
+	div.switchers_wrapper {
+		width: 180px;
+	}
+	.subscription {
+		margin: 0 auto 3.5% auto;
+	}
+	.dropdown_div {
+		height: 10%;
+	}
+	div.login {
+		margin: 0 auto;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1688px) {
+	.wrapper {
+		width: 1140px;
+		height: 910px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	header {
+		height: 238px;
+	}
+	div.slideshow_wrapper {
+		width: 650px;
+	}
+	div.carousel-caption {
+		bottom: 0;
+	}
+	ol.carousel-indicators {
+		top: 87.5%;
+	}
+	span.glyphicon.glyphicon-menu-right, span.glyphicon.glyphicon-menu-left {
+		top: 5px;
+	}
+	.social_wrapper {
+		width: 238px;
+		margin: 0 31px;
+	}
+	div.social_div {
+		margin: 0;
+	}
+	.post_info_cell div img {
+		width: 50%;
+	}
+	.views, .replies, .likes {
+		padding: 9% 6%;
+	}
+	nav.navbar.navbar-default {
+		width: 80%;
+		padding-left: 0;
+		padding-right: 9px;
+	}
+	nav.navbar.navbar-default div.container-fluid {
+		padding-right: 0;
+	}
+	ul.navbar-nav > li > a {
+		width: 100px;
+		text-align: center;
+	}
+	div.container-fluid .input-group {
+		width: 252px;
+	}
+	div.container-fluid .input-group span.input-btn-group {
+		padding-right: 0;
+	}
+	#accordion {
+		margin-bottom: 20px;
+	}
+	div.aside {
+		width: 20%;
+		padding-right: 0;
+		height: 479px;
+	}
+	label.switcher {
+		right: -18%;
+	}
+	.subscription_wrapper {
+		width: 18%;
+		padding: 0;
+		padding-right: 10px;
+		margin-bottom: 20px;
+	}
+	.subscription {
+		padding-bottom: 15px !important;
+	}
+	div.subscription_img {
+		margin-bottom: 	17px;
+	}
+	.weather_wrapper {
+		width: 29%;
+		padding: 0 10px;
+		overflow: hidden;
+	}
+	div.weather_header {
+		height: 59px;
+	}
+	div.current_weather {
+		height: 140px;
+	}
+	div.current_weather div.weather_ico {
+		padding-left: 8%;
+	}
+	.calendar_wrapper {
+		padding-right: 0;
+		height: 287px;
+		padding-left: 10px;
+		width: 367px;
+	}
+	.second_row {
+		height: 287px;
+		position: relative;
+		top: -410px;
+		margin-bottom: 20px;
+	}
+	.dropdown_wrapper {
+		padding: 0 10px 0 0;
+		width: 18%;
+		position: relative;
+		left: -79.25%;
+		top: -103px;
+	}
+	.messages_wrapper {
+		margin-left: 0;
+		padding: 0 10px;
+		position: relative;
+		width: 35%;
+		left: -29%;
+		top: -390px;
+	}
+	.login_wrapper {
+		position: relative;
+		top: -604px;
+		left: 615px;
+		padding: 0;
+		width: 46.1%;
+		z-index: 9999;
+	}
+	div.username_password div.password {
+		width: 48%;
+		padding-right: 0;
 	}
 }
