@@ -1203,3 +1203,92 @@ textarea.form-control.custom-control  {
 		padding-right: 0;
 	}
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+	div.slideshow_wrapper {
+		width: 96.75%;
+		margin: 0 auto 25px auto
+	}
+	div.slideshow {
+		max-height: none;
+	}
+	div.carousel-caption {
+		bottom: 0;
+	}
+	ol.carousel-indicators {
+		top: 87.5%;
+	}
+	span.glyphicon.glyphicon-menu-left,
+	span.glyphicon.glyphicon-menu-right  {
+		font-size: 150%;
+		top: 20%;
+	}
+	nav.navbar.navbar-default {
+		width: 100%;
+	}
+	nav div.container-fluid {
+		padding-right: 0;
+	}
+	form.navbar-form.navbar-right.center-block {
+		padding-left: 0;
+	}
+	#search {
+		width: 218px;
+	}
+	div.messages .panel-group {
+		margin: 0 auto 25px auto;
+		width: 65%;
+	}
+	div.switcher {
+		margin-bottom: 25px;
+		margin-left: 5%;
+		width: 30%;
+		position: relative;
+		right: -65%;
+	}
+	label.switcher {
+		margin: 0;
+		left: 75%;
+	}
+	label.switcher::after {
+		right: 5%;
+		margin: 0;
+	}
+	div.aside {
+		height: 321px;
+	}
+	div.subscription {
+		width: 20%;
+		margin-right: 2.5%;
+		float: left;
+	}
+	div.weather_wrapper {
+		margin: 0 0 20px 20px;
+		padding-left: 5%;
+		width: 66.5%;
+		top: -1px;
+	}
+	.third_row {
+		max-height: 658px;
+	}
+	div.dropdown_wrapper {
+		width: 30%;
+		margin-right: 2.5%;
+		float: left;
+	}
+	.messages_wrapper {
+		width: 70%;
+		left: 30%;
+		top: -140px;
+		margin-bottom: 20px;
+		position: relative;
+		overflow: hidden;
+		height: 289px;
+	}
+	.login_wrapper {
+		top: -140px;
+		overflow: hidden;
+	}
+	div.login {
+		margin: 0 auto;
+	}
+}
